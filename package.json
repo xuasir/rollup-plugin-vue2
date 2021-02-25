@@ -1,9 +1,10 @@
 {
   "name": "@xus/rollup-plugin-vue2",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "proxy rollup-plugin-vue@5.x.x ",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
+  "types": "lib/index.d.js",
   "files": [
     "lib"
   ],
