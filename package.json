@@ -1,8 +1,9 @@
 {
   "name": "@xus/rollup-plugin-vue2",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "proxy rollup-plugin-vue@5.x.x ",
   "main": "lib/index.js",
+  "module": "lib/index.esm.js",
   "files": [
     "lib"
   ],
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/xus-code/rollup-plugin-vue2#readme",
   "dependencies": {
     "rollup-plugin-vue": "5.1.9"
+  },
+  "peerDependencies": {
+    "vue-template-compiler": "*"
   }
 }
